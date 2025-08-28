@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Soroor Aghapour</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Soroor Aghapour</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#resume" class="nav-link">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a href="experiences.html" class="nav-link">Experiences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Soroor Aghapour</span></h1>
+                <p class="hero-subtitle">Biomedical Signal Processing & ML Engineer</p>
+                <p class="hero-description">
+                    Passionate about biomedical signal processing and machine learning. 
+                    Specializing in fetal ECG extraction, wearable health monitoring, and real-time signal processing algorithms.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#resume" class="btn btn-primary">View Resume</a>
+                    <a href="experiences.html" class="btn btn-secondary">My Projects</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="profile-photo.jpg" alt="Soroor Aghapour" class="profile-photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a biomedical signal processing and machine learning engineer, currently pursuing my M.Sc. in 
+                        Electrical Engineering – Integrated Circuits of Electronic Systems at K. N. Toosi University of Technology. 
+                        My research focuses on robust fetal heart rate monitoring using fECG via enhanced ICA and time series signal modeling.
+                    </p>
+                    <p>
+                        I specialize in developing algorithms for wearable health-monitoring devices, achieving 99% F1-score in fetal ECG detection. 
+                        My expertise spans from low-level VHDL design to high-level machine learning implementations using PyTorch, TensorFlow, and MATLAB.
+                    </p>
+                </div>
+                <div class="skills">
+                    <h3>Skills & Technologies</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">MATLAB</span>
+                        <span class="skill-tag">VHDL</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">OpenCV</span>
+                        <span class="skill-tag">Cadence Virtuoso</span>
+                        <span class="skill-tag">Fetal ECG</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <div class="resume-section">
+                    <h3>Education</h3>
+                    <div class="resume-item">
+                        <div class="resume-item-header">
+                            <h4>M.Sc. Electrical Engineering – Integrated Circuits of Electronic Systems</h4>
+                            <span class="date">2023 - November 2025 (expected)</span>
+                        </div>
+                        <p class="institution">K. N. Toosi University of Technology (KNTU)</p>
+                        <p><strong>Thesis:</strong> Robust Fetal Heart Rate Monitoring Using fECG via Enhanced ICA and Time Series Signal Modeling</p>
+                        <p><strong>Supervisors:</strong> Dr. Hossein Hosseini-Nejad, Dr. Yarallah Koolivand</p>
+                        <p><strong>CGPA:</strong> 3.65/4.0 (17.48/20 in Iranian Scale)</p>
+                    </div>
+                    <div class="resume-item">
+                        <div class="resume-item-header">
+                            <h4>B.E. in Electronics Engineering</h4>
+                            <span class="date">2017 - 2020</span>
+                        </div>
+                        <p class="institution">Hamedan University of Technology (HUT)</p>
+                        <p><strong>Final Project:</strong> Low-complexity gaze detection algorithm using images obtained from the webcam</p>
+                        <p><strong>Advisor:</strong> Dr. Mohammad Hossein Doost Mohammadi</p>
+                        <p><strong>CGPA:</strong> 3.3/4.0 (16.05/20 in Iranian Scale)</p>
+                    </div>
+                    <div class="resume-item">
+                        <div class="resume-item-header">
+                            <h4>Diplomas in Mathematics and Physics</h4>
+                            <span class="date">2014 - 2017</span>
+                        </div>
+                        <p class="institution">National Organization for Development of Exceptional Talents (SAMPAD)</p>
+                        <p><strong>CGPA:</strong> 4.0/4.0 (19.21/20 in Iranian Scale)</p>
+                    </div>
+                </div>
+
+                <div class="resume-section">
+                    <h3>Research & Experience</h3>
+                    <div class="resume-item">
+                        <div class="resume-item-header">
+                            <h4>Noninvasive Fetal ECG Extraction in Wearable Monitoring Systems</h4>
+                            <span class="date">2023 - November 2025 (expected)</span>
+                        </div>
+                        <p class="institution">Research Assistant, K. N. Toosi University of Technology (KNTU)</p>
+                        <p><strong>Supervisors:</strong> Dr. Hossein Hosseini-Nejad, Dr. Yarallah Koolivand</p>
+                        <ul>
+                            <li>Developed algorithms for extracting fetal ECG signals from abdominal recordings in wearable health-monitoring devices</li>
+                            <li>Enhanced signal processing pipeline to improve noise robustness, overcame nonlinear signal mixing using Weighted ICA approach</li>
+                            <li>Achieved 99% F1-score in fetal ECG detection</li>
+                            <li>Currently preparing manuscript for peer-reviewed journal submission</li>
+                        </ul>
+                    </div>
+
+                    <div class="resume-item">
+                        <div class="resume-item-header">
+                            <h4>Low-Complexity Gaze Detection Algorithm</h4>
+                            <span class="date">2017 - 2020</span>
+                        </div>
+                        <p class="institution">Research Assistant, Hamedan University of Technology (HUT)</p>
+                        <p><strong>Supervisor:</strong> Dr. Mohammad Hossein Doost Mohammadi</p>
+                        <ul>
+                            <li>Designed computationally efficient algorithm for real-time gaze recognition on standard webcams</li>
+                            <li>Published results in 13th International Conference on Information Technology, Computers and Telecommunications</li>
+                            <li>Implemented multiple candidate methods, selecting optimal approach based on accuracy and speed</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="resume-section">
+                    <h3>Teaching Experience</h3>
+                    <div class="resume-item">
+                        <div class="resume-item-header">
+                            <h4>Teaching Assistant in Machine Learning</h4>
+                            <span class="date">2024</span>
+                        </div>
+                        <p><strong>Supervisor:</strong> Dr. Mahdi Aliyari, K. N. Toosi University of Technology</p>
+                    </div>
+                    <div class="resume-item">
+                        <div class="resume-item-header">
+                            <h4>Teaching Assistant in Basic Artificial Intelligence</h4>
+                            <span class="date">2023</span>
+                        </div>
+                        <p><strong>Supervisor:</strong> Dr. Mahdi Aliyari, K. N. Toosi University of Technology</p>
+                    </div>
+                </div>
+                <div class="resume-section">
+                    <h3>Publications</h3>
+                    <div class="resume-item">
+                        <div class="resume-item-header">
+                            <h4>Low-Complexity Gaze Detection Algorithm</h4>
+                            <span class="date">2021</span>
+                        </div>
+                        <p><strong>Authors:</strong> Soroor Aghapoor and Mohammad Hossein Doost Mohammadi</p>
+                        <p>"Low-Complexity Gaze Detection Algorithm Using Images Obtained from the Webcam," 13th International Conference on Information Technology, Computers and Telecommunications.</p>
+                        <p><strong>Link:</strong> <a href="https://civilica.com/doc/1326493" target="_blank">https://civilica.com/doc/1326493</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in hearing about new opportunities and exciting projects. Feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>sorooraghapoor@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>sor.aghapour@email.kntu.ac.ir</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/soroor-ag" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/soroor-aghapoor" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://drive.google.com/file/d/1GRwd6cB9hDyJRgHkczN6Xe-WOXnqnGlz/view?usp=sharing" target="_blank" class="social-link">
+                            <i class="fas fa-file-alt"></i>
+                            <span>Resume</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Soroor Aghapour. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
